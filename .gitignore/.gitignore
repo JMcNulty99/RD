@@ -1,3 +1,4 @@
 #ignored files
 #precompiled headers
 *.icph
+RD.VC.db
