@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\RD.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{E23A5CE2-D178-4054-8801-F254402D21C3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RD.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RDEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{ADBE0E41-03BF-4222-8337-7CC8DA1A1CA3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\RD">
+			<UniqueIdentifier>{DE548513-BCFA-4DDB-842D-35EED6547E01}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RD\RD.Build.cs">
+			<Filter>Source\RD</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\RD\RD.cpp">
+			<Filter>Source\RD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RD\RD.h">
+			<Filter>Source\RD</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RD\RDGameModeBase.cpp">
+			<Filter>Source\RD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RD\RDGameModeBase.h">
+			<Filter>Source\RD</Filter>
+		</ClInclude >
+		<Filter Include="Source\RD\Jacob">
+			<UniqueIdentifier>{BEE43952-D8DB-44C7-BF96-2FBD902716EB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RD\Jacob\DayNightDriver.cpp">
+			<Filter>Source\RD\Jacob</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RD\Jacob\DayNightDriver.h">
+			<Filter>Source\RD\Jacob</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RD\Jacob\WeatherDriver.cpp">
+			<Filter>Source\RD\Jacob</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RD\Jacob\WeatherDriver.h">
+			<Filter>Source\RD\Jacob</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,340 @@
+﻿Log file open, 07/28/17 16:58:32
+LogInit:Display: Running engine for game: RD
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-859899822) SRandInit(-859899808).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.290673
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  -skipcompile
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.28-20.58.33:604][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-20.58.33:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.28-20.58.33:713][  0]LogInit: Computer: SEAGULLDESKTOP
+[2017.07.28-20.58.33:713][  0]LogInit: User: Seagull
+[2017.07.28-20.58.33:713][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.07.28-20.58.33:713][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.07.28-20.58.33:714][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.07.28-20.58.33:714][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-20.58.33:714][  0]LogMemory: Process Physical Memory: 274.25 MB used, 274.25 MB peak
+[2017.07.28-20.58.33:714][  0]LogMemory: Process Virtual Memory: 271.25 MB used, 271.25 MB peak
+[2017.07.28-20.58.33:714][  0]LogMemory: Physical Memory: 4503.49 MB used,  11832.77 MB free, 16336.26 MB total
+[2017.07.28-20.58.33:714][  0]LogMemory: Virtual Memory: 657.84 MB used,  11832.77 MB free, 134217728.00 MB total
+[2017.07.28-20.58.34:581][  0]LogInit: Using OS detected language (en-US).
+[2017.07.28-20.58.34:581][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.28-20.58.34:927][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.28-20.58.39:483][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.28-20.58.39:534][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2017.07.28-20.58.39:534][  0]LogD3D11RHI:       4072/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.07.28-20.58.39:541][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.28-20.58.39:541][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.28-20.58.39:541][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.28-20.58.39:549][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.28-20.58.39:549][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.28-20.58.39:549][  0]LogWindows: EnumDisplayDevices:
+[2017.07.28-20.58.39:550][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2017.07.28-20.58.39:550][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:1)
+[2017.07.28-20.58.39:550][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.07.28-20.58.39:550][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.07.28-20.58.39:551][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.07.28-20.58.39:551][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2017.07.28-20.58.39:551][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.07.28-20.58.39:551][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2017.07.28-20.58.39:551][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.4.4 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.07.28-20.58.39:552][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.07.28-20.58.39:552][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.28-20.58.39:722][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.28-20.58.39:973][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.07.28-20.58.40:070][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (C:/Users/Seagull/Documents/Unreal Projects/RD/Intermediate/Shaders/WorkingDirectory/7928/).
+[2017.07.28-20.58.40:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Seagull/AppData/Local/Temp/UnrealShaderWorkingDir/6DFDA8EC419742FE0AF377A159CBEA3D/'.
+[2017.07.28-20.58.40:070][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.28-20.58.43:518][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.28-20.58.43:570][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.28-20.58.43:631][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.28-20.58.43:684][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.28-20.58.43:780][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.28-20.58.43:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.28-20.58.43:898][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.28-20.58.43:955][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.28-20.58.44:003][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.28-20.58.44:082][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.28-20.58.44:135][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.28-20.58.44:192][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.28-20.58.44:250][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.28-20.58.44:303][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.28-20.58.44:356][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.28-20.58.44:464][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.28-20.58.44:464][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.28-20.58.44:507][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.28-20.58.44:693][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.28-20.58.44:725][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.28-20.58.44:778][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.28-20.58.44:831][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.28-20.58.44:885][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.28-20.58.44:942][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.28-20.58.44:943][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.28-20.58.46:408][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.28-20.58.46:901][  0]LogDerivedDataCache: Loaded boot cache 0.49s 91MB C:/Users/Seagull/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-20.58.46:901][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Seagull/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.28-20.58.46:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Seagull/Documents/Unreal Projects/RD/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.28-20.58.46:902][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.28-20.58.46:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Seagull/Documents/Unreal Projects/RD/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.28-20.58.46:902][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.28-20.58.47:005][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.28-20.58.47:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Seagull/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.28-20.58.47:136][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.28-20.58.47:200][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.28-20.58.47:358][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-20.58.47:358][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-20.58.55:158][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-20.58.56:274][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.28-20.58.56:847][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.28-20.58.57:041][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.28-20.58.57:095][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.28-20.58.57:095][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.28-20.58.57:095][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.28-20.59.02:812][  0]LogNetVersion: RD , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 446141871)
+[2017.07.28-20.59.03:076][  0]LogAssetRegistry: FAssetRegistry took 0.0551 seconds to start up
+[2017.07.28-20.59.03:264][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.114178 seconds
+[2017.07.28-20.59.03:301][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.28-20.59.03:301][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.28-20.59.03:301][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.28-20.59.03:409][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.28-20.59.13:310][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.28-20.59.13:365][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.28-20.59.14:907][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.28-20.59.15:755][  0]SourceControl: Info Source control is disabled
+[2017.07.28-20.59.15:845][  0]SourceControl: Info Source control is disabled
+[2017.07.28-20.59.15:947][  0]SourceControl: Info Source control is disabled
+[2017.07.28-20.59.16:014][  0]SourceControl: Info Source control is disabled
+[2017.07.28-20.59.17:337][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.28-20.59.18:685][  0]LogEngine: Initializing Engine...
+[2017.07.28-20.59.18:728][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2017.07.28-20.59.19:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.28-20.59.19:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.28-20.59.19:938][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.28-20.59.20:029][  0]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.28-20.59.20:076][  0]LogInit: FAudioDevice initialized.
+[2017.07.28-20.59.20:155][  0]LogDerivedDataCache: Saved boot cache 0.08s 91MB C:/Users/Seagull/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-20.59.20:176][  0]LogInit: Texture streaming: Enabled
+[2017.07.28-20.59.20:375][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.28-20.59.20:844][  0]LogInit: Transaction tracking system initialized
+[2017.07.28-20.59.21:400][  0]BlueprintLog: New page: Editor Load
+[2017.07.28-20.59.23:315][  0]LocalizationService: Info Localization service is disabled
+[2017.07.28-20.59.24:680][  0]LogConsoleResponse:Display: 
+[2017.07.28-20.59.27:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/' took 0.02s
+[2017.07.28-20.59.27:337][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.28-20.59.27:337][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.28-20.59.29:566][  0]SourceControl: Info Source control is disabled
+[2017.07.28-20.59.29:588][  0]Cmd: MAP LOAD FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.28-20.59.29:594][  0]LightingResults: New page: Lighting Build
+[2017.07.28-20.59.29:787][  0]MapCheck: New page: Map Check
+[2017.07.28-20.59.29:787][  0]LightingResults: New page: Lighting Build
+[2017.07.28-20.59.31:662][  0]LogAIModule: Creating AISystem for world NewMap
+[2017.07.28-20.59.43:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.28-20.59.43:995][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.28-20.59.44:060][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.421ms to complete.
+[2017.07.28-20.59.44:060][  0]LogFileHelpers: Loading map 'NewMap' took 14.483
+[2017.07.28-20.59.45:436][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
+[2017.07.28-20.59.45:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/Collections/' took 0.01s
+[2017.07.28-20.59.45:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/Developers/Seagull/Collections/' took 0.01s
+[2017.07.28-20.59.45:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/Collections/' took 0.01s
+[2017.07.28-20.59.45:643][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2017.07.28-20.59.45:670][  0]LogContentBrowser: Native class hierarchy populated in 0.0258 seconds. Added 2332 classes and 494 folders.
+[2017.07.28-20.59.45:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.07.28-20.59.47:167][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.07.28-20.59.47:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.07.28-20.59.47:629][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0021 seconds. Added 1 classes and 3 folders.
+[2017.07.28-20.59.47:928][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.28-20.59.48:031][  0]LogSlate: Took 0.017318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-20.59.48:039][  0]LogSlate: Took 0.005146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.28-20.59.48:083][  0]LogSlate: Took 0.020321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.28-20.59.48:446][  0]LogRenderer: Reallocating scene render targets to support 864x580 NumSamples 1 (Frame:1).
+[2017.07.28-20.59.48:766][  0]LogSlate: Took 0.005601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-20.59.49:026][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.28-20.59.49:169][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.07.28-20.59.49:169][  0]LogLoad: (Engine Initialization) Total time: 83.17 seconds
+[2017.07.28-20.59.49:169][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.69 seconds
+[2017.07.28-20.59.49:169][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.28-20.59.49:170][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.28-20.59.49:204][  0]LogOcInput: OculusInput pre-init called
+[2017.07.28-20.59.49:204][  0]LogHMD: Starting GearVRController plugin
+[2017.07.28-20.59.49:299][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.07.28-20.59.49:533][  2]LogAssetRegistry: Asset discovery search completed in 46.4813 seconds
+[2017.07.28-20.59.49:536][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.07.28-20.59.49:536][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000177 seconds (updated 0 objects)
+[2017.07.28-20.59.53:102][375]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-20.59.53:138][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.28-20.59.55:172][375]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-20.59.55:277][375]LogSavePackage: Save=2074.70ms
+[2017.07.28-20.59.55:277][375]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/NewMapA117D8D34076C23A4CB3428168BB2012.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/NewMap.umap'
+[2017.07.28-20.59.55:282][375]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/NewMap.umap
+[2017.07.28-21.00.45:914][541]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 112 classes and 0 folders.
+[2017.07.28-21.00.47:226][541]LogSlate: Took 0.017366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.28-21.00.47:905][542]LogSlate: Took 0.004508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.28-21.02.26:219][ 73]LogEditorTransaction: Undo Move Node
+[2017.07.28-21.02.26:259][ 73]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-21.02.54:317][510]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.02.54:852][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.02.54:993][533]LogSavePackage: Save=130.89ms
+[2017.07.28-21.02.54:993][533]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTest0A96E112418D88870EC4CCA2CBA90DC8.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.02.55:019][533]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.05.18:048][934]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.05.18:795][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.05.18:918][979]LogSavePackage: Save=117.69ms
+[2017.07.28-21.05.18:918][979]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestC1405E2049C0C2C6AF3FD48A329A2A17.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.05.18:922][979]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.06.01:032][996]Candidate modules for hot reload:
+[2017.07.28-21.06.01:032][996]  RD
+[2017.07.28-21.06.01:047][996]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe RD -ModuleWithSuffix RD 9544 Win64 Development -editorrecompile -canskiplink "C:/Users/Seagull/Documents/Unreal Projects/RD/RD.uproject" ]
+[2017.07.28-21.06.01:049][996]Warning: Starting HotReload took  0.1s.
+[2017.07.28-21.06.25:971][ 15]CompilerResultsLog: New page: Compilation - Jul 28, 2017, 1:06:25 PM
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info Creating makefile for hot reloading RD (modules to compile have changed)
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info Parsing headers for RDEditor
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Seagull\Documents\Unreal Projects\RD\RD.uproject" "C:\Users\Seagull\Documents\Unreal Projects\RD\Intermediate\Build\Win64\RDEditor\Development\RDEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info Reflection code generated for RDEditor in 4.0664703 seconds
+[2017.07.28-21.06.25:972][ 15]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog: Info WeatherDriver.cpp
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog: Info RD.generated.cpp
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(19) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error D:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(615) : note: see declaration of 'USceneComponent::AttachTo'
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(20) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error D:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(615) : note: see declaration of 'USceneComponent::AttachTo'
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(179) : error C2556: 'UParticleSystemComponent *AWeatherDriver::GetCurrentWeatherParticle(void)': overloaded function differs only by return type from 'UParticleSystem *AWeatherDriver::GetCurrentWeatherParticle(void)'
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error c:\users\seagull\documents\unreal projects\rd\source\rd\jacob\WeatherDriver.h(128) : note: see declaration of 'AWeatherDriver::GetCurrentWeatherParticle'
+[2017.07.28-21.06.25:973][ 15]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(178) : error C2371: 'AWeatherDriver::GetCurrentWeatherParticle': redefinition; different basic types
+[2017.07.28-21.06.25:974][ 15]CompilerResultsLog:Error: Error c:\users\seagull\documents\unreal projects\rd\source\rd\jacob\WeatherDriver.h(128) : note: see declaration of 'AWeatherDriver::GetCurrentWeatherParticle'
+[2017.07.28-21.06.25:974][ 15]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Seagull\Documents\Unreal Projects\RD\Binaries\Win64\UE4Editor-RD-9544.dll
+[2017.07.28-21.06.25:974][ 15]CompilerResultsLog: Info Total build time: 24.68 seconds (Local executor: 0.00 seconds)
+[2017.07.28-21.06.25:974][ 15]LogMainFrame: MainFrame: Module compiling took 24.968 seconds
+[2017.07.28-21.06.25:974][ 15]Warning: HotReload failed, recompile failed
+[2017.07.28-21.06.45:344][540]LogVSAccessor:Warning: Couldn't goto line number '178' in 'C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp'
+[2017.07.28-21.07.01:485][790]Candidate modules for hot reload:
+[2017.07.28-21.07.01:485][790]  RD
+[2017.07.28-21.07.01:486][790]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe RD -ModuleWithSuffix RD 6877 Win64 Development -editorrecompile -canskiplink "C:/Users/Seagull/Documents/Unreal Projects/RD/RD.uproject" ]
+[2017.07.28-21.07.01:488][790]Warning: Starting HotReload took  0.0s.
+[2017.07.28-21.07.07:162][182]CompilerResultsLog: New page: Compilation - Jul 28, 2017, 1:07:07 PM
+[2017.07.28-21.07.07:163][182]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.28-21.07.07:163][182]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.07.28-21.07.07:163][182]CompilerResultsLog: Info WeatherDriver.cpp
+[2017.07.28-21.07.07:163][182]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(19) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.28-21.07.07:163][182]CompilerResultsLog:Error: Error D:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(615) : note: see declaration of 'USceneComponent::AttachTo'
+[2017.07.28-21.07.07:163][182]CompilerResultsLog:Error: Error C:\Users\Seagull\Documents\Unreal Projects\RD\Source\RD\Jacob\WeatherDriver.cpp(20) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.28-21.07.07:164][182]CompilerResultsLog:Error: Error D:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(615) : note: see declaration of 'USceneComponent::AttachTo'
+[2017.07.28-21.07.07:164][182]CompilerResultsLog: Info [2/3] Link UE4Editor-RD-6877.dll
+[2017.07.28-21.07.07:164][182]CompilerResultsLog: Info [3/3] Link UE4Editor-RD-6877.lib
+[2017.07.28-21.07.07:164][182]CompilerResultsLog: Info    Creating library C:\Users\Seagull\Documents\Unreal Projects\RD\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RD-6877.lib and object C:\Users\Seagull\Documents\Unreal Projects\RD\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RD-6877.exp
+[2017.07.28-21.07.07:164][182]CompilerResultsLog: Info    Creating library C:\Users\Seagull\Documents\Unreal Projects\RD\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RD-6877.suppressed.lib and object C:\Users\Seagull\Documents\Unreal Projects\RD\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RD-6877.suppressed.exp
+[2017.07.28-21.07.07:164][182]CompilerResultsLog: Info Total build time: 5.44 seconds (Local executor: 5.07 seconds)
+[2017.07.28-21.07.07:164][182]LogMainFrame: MainFrame: Module compiling took 5.684 seconds
+[2017.07.28-21.07.07:259][182]LogClass: Could not find existing class WeatherDriver in package /Script/RD for HotReload, assuming new class
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentDay is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentHour is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentMinute is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentMonth is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentSecond is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentTime is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentWeather is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentWeatherParticle is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentWeatherString is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function GetCurrentYear is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function IsWeatherActive is new.
+[2017.07.28-21.07.07:260][182]LogClass: Function UpdateWeather is new.
+[2017.07.28-21.07.07:261][182]LogClass: WeatherType HotReload.
+[2017.07.28-21.07.07:267][182]LogHotReload: Re-instancing WeatherDriver after hot-reload.
+[2017.07.28-21.07.07:519][182]LogContentBrowser: Native class hierarchy updated for 'RD' in 0.0021 seconds. Added 3 classes and 3 folders.
+[2017.07.28-21.07.07:523][182]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.28-21.07.07:887][182]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 2335 classes and 501 folders.
+[2017.07.28-21.07.08:092][182]Display: HotReload took  6.6s.
+[2017.07.28-21.07.16:270][835]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.07.40:421][864]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.07.40:976][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.07.41:100][892]LogSavePackage: Save=116.99ms
+[2017.07.28-21.07.41:100][892]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestB00B5566401B7A86885A59BE96874B5B.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.07.41:106][892]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.08.34:777][339]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.08.35:291][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.08.35:418][363]LogSavePackage: Save=118.93ms
+[2017.07.28-21.08.35:419][363]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestB57DFC8541AD8D3274FFC7BD2FCBE07C.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.08.35:422][363]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.08.43:209][ 33]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.08.43:755][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.08.43:878][ 61]LogSavePackage: Save=118.86ms
+[2017.07.28-21.08.43:878][ 61]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestB2B21CCD48FA4133D80D369DEFB79A3E.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.08.43:882][ 61]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.09.14:538][674]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.09.15:203][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.09.15:327][712]LogSavePackage: Save=120.05ms
+[2017.07.28-21.09.15:327][712]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestBB76466A4C60237428843F84F7605FEF.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.09.15:331][712]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.10.40:617][209]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.10.41:720][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.10.41:849][245]LogSavePackage: Save=123.57ms
+[2017.07.28-21.10.41:849][245]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTest6B7D73E74E66AA6DA2660386BBC619E8.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.10.41:853][245]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.11.38:363][741]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.11.39:041][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.11.39:174][777]LogSavePackage: Save=129.15ms
+[2017.07.28-21.11.39:175][777]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTest9413D9AC41999F2B711A299030796340.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.11.39:178][777]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.11.50:156][627]BlueprintLog: New page: Compile ShadowMapTest
+[2017.07.28-21.11.50:676][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShadowMapTest" FILE="C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset" SILENT=true
+[2017.07.28-21.11.50:809][646]LogSavePackage: Save=129.46ms
+[2017.07.28-21.11.50:809][646]LogSavePackage: Moving 'C:/Users/Seagull/Documents/Unreal Projects/RD/Saved/ShadowMapTestAA822DCE4449212544D5B0B109BF91CB.tmp' to 'C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset'
+[2017.07.28-21.11.50:813][646]LogSavePackage:Display: Finished SavePackage C:/Users/Seagull/Documents/Unreal Projects/RD/Content/ShadowMapTest.uasset
+[2017.07.28-21.11.58:047][312]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.28-21.11.58:142][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-21.11.58:178][312]PIE: New page: PIE session: NewMap (Jul 28, 2017, 1:11:58 PM)
+[2017.07.28-21.11.58:178][312]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2017.07.28-21.11.58:339][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160557s)
+[2017.07.28-21.11.58:341][312]LogAIModule: Creating AISystem for world NewMap
+[2017.07.28-21.11.58:342][312]LogPlayLevel: PIE: World Init took: (0.002411s)
+[2017.07.28-21.11.58:342][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.163890s)
+[2017.07.28-21.11.58:391][312]LogInit: XAudio2 using 'Speakers (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.28-21.11.58:405][312]LogInit: FAudioDevice initialized.
+[2017.07.28-21.11.58:464][312]LogLoad: Game class is 'GameModeBase'
+[2017.07.28-21.11.58:541][312]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.07.28-17.11.58
+[2017.07.28-21.11.58:554][312]LogWorld: Bringing up level for play took: 0.042262
